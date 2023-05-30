@@ -1,0 +1,371 @@
+.bg{
+    background-image: url(https://image.cnbcfm.com/api/v1/image/106811484-1608045351058-gettyimages-1126750618-dsc_1540.jpeg?v=1608045431);
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+}
+
+
+    
+.text1{
+    text-decoration:none;
+    color: white;
+   
+    list-style-type: none;
+}
+
+.text1:hover{
+    color: rgb(250, 195, 13);
+    transition: 0.1s;
+    
+}
+
+li{
+  padding: 20px;
+    list-style-type: none;
+    
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: rgb(2, 1, 17);
+    z-index:100;
+   
+    
+}
+
+.para{
+    max-width: 150px;
+}
+
+
+
+.logo{
+    background-color: rgb(241, 182, 18);
+    justify-content: center;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+} 
+
+.company{
+    /* display:flex; */
+    gap:5px;
+    margin-top:20px;
+
+}
+
+.font{
+    font-size:30px;
+    margin-top:12px;
+    padding-left:10px
+   
+}
+
+
+.home {
+    position: relative;
+  }
+  
+  
+  .intro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .intro p {
+    color: white;
+    font-size:60px;
+  }
+  
+  .home-button {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .center{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 60px;
+  }
+
+  .services{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+  }
+  
+
+  .bg2{
+    background-image:url(https://www.agcs.allianz.com/content/onemarketing/agcs/agcs/en_GB/news-and-insights/reports/global-industry-solution-outlook-2023-construction.thumb.1280.1280.png?ck=1682418269);
+    height:70vh;
+    background-size:cover;
+    width:100%;
+    background-attachment:fixed;
+    
+  }
+  
+  body{
+    overflow-y:scroll;
+    height:300vh;
+  }
+
+  section{
+    display:flex;
+    margin-top: 100px;
+    gap: 100px;
+  }
+
+  .left{
+    width:40%;
+    margin-left: 200px;
+  }
+  
+.right{
+  width: 80%;
+  height: 20%;
+}
+
+.counter{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(245, 182, 11);
+  text-align: center;
+  height: 220px;
+}
+
+.year p{
+  margin-bottom: -20px;
+}
+
+.project p{
+  margin-bottom: -20px;
+}
+
+.contract p{
+  margin-bottom: -20px;
+}
+
+.award p{
+  margin-bottom: -20px;
+}
+
+.projects{
+  margin-top: 100px;
+}
+
+.projects H1{
+  text-align: center;
+  font-size: 60px;
+}
+
+.upper2{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  overflow: hidden;
+  
+}
+
+.upper2 img{
+  width: 454px;
+  height: 453px;
+  transition: 0.7s;
+}
+
+.upper2 img:hover{
+  transform: scale(1.1);
+  transition: 0.7s;
+
+}
+
+.lower2{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.lower2 img{
+  width: 454px;
+  height: 453px;
+  transition: 0.7s;
+}
+.lower2 img:hover{
+  transform: scale(1.1);
+  transition: 0.7s;
+  
+}
+
+.clients h1{
+  text-align: center;
+  font-size: 60px;
+}
+
+.clients{
+  margin-top: 150px;
+}
+
+.logos{
+  display:flex;
+  justify-content: space-evenly;
+  font-size: 60px;
+  margin-top: 50px;
+}
+
+#first:hover{
+  color: #7289DA;
+}
+
+#second:hover{
+  color: blue;
+}
+
+#third:hover{
+  color: #E4405F;
+}
+
+
+#fourth:hover{
+  color: red;
+}
+
+#fifth:hover{
+  color: #1DA1F2;
+}
+ 
+
+
+.contact{
+  margin-top: 100px;
+}
+
+.contact h1{
+  text-align: center;
+  font-size: 60px;
+}
+
+.contact img{
+  margin-left: 210px;
+}
+
+.left-side{
+  margin-top:100px;
+  width:500px;
+  display: inline;
+  
+}
+
+.right-side{
+  margin-top: 100px;
+display: inline;
+width: 500px
+  
+}
+
+footer{
+  display: flex;
+  justify-content: space-evenly;
+   background-color: rgba(248, 248, 248, 0.993);
+  gap: 100px;
+}
+
+
+input{
+  width: 400px;
+}
+
+
+form button{
+  width: 149px;
+  height: 40px;
+  background-color: rgb(46, 45, 45);
+  color: rgb(240, 168, 14);
+  border-width: 1px;
+  margin-top:20px;
+}
+
+form button:hover{
+  background-color: rgb(240, 162, 17);
+  color: rgb(44, 44, 44);
+  transition: 0.7s;
+  
+  
+}
+
+
+
+/* 
+@media (max-width: 767px) {
+ 
+  body {
+    font-size: 16px;
+  }
+   */
+/* 
+  .container {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+ 
+  body {
+    font-size: 18px;
+  }
+  
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+} */
+
+/* 
+@media (min-width: 1024px) {
+
+  body {
+    font-size: 20px;
+  }
+  
+
+  .container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px;
+    box-sizing: border-box;
+  }
+} */
