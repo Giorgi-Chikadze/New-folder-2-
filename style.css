@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .bg{
     background-image: url(https://image.cnbcfm.com/api/v1/image/106811484-1608045351058-gettyimages-1126750618-dsc_1540.jpeg?v=1608045431);
     width: 100%;
@@ -12,6 +17,7 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 ul{
@@ -19,8 +25,13 @@ ul{
     gap: 20px;
 }
 
-
-    
+.burger{
+  padding: 0 10px;
+  display: none;
+}
+.burger svg{
+  width: 30px;
+} 
 .text1{
     text-decoration:none;
     color: white;
@@ -35,22 +46,23 @@ ul{
 }
 
 li{
-  padding: 20px;
+    padding: 20px;
     list-style-type: none;
     
 }
 
 header{
-    position: sticky;
+    position: fixed;
     top: 0;
     background-color: rgb(2, 1, 17);
     z-index:100;
+    width: 100%;
    
     
 }
 
 .para{
-    max-width: 150px;
+    max-width: 200px;
 }
 
 
@@ -64,19 +76,23 @@ header{
     gap: 20px;
 
 } 
-
+.logo-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .company{
     /* display:flex; */
     gap:5px;
     margin-top:20px;
 
 }
-
-.font{
-    font-size:30px;
-    margin-top:12px;
-    padding-left:10px
-   
+.company-logo{
+  padding: 0 10px
+}
+.company-logo svg{
+    width: 40px;
+    height: 40px;
 }
 
 
@@ -117,8 +133,13 @@ header{
 
   .services{
     display: flex;
-    justify-content: space-evenly;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-top: 60px;
+    padding: 0 10%;
+    gap:80px;
+
   }
   
 
@@ -131,10 +152,7 @@ header{
     
   }
   
-  body{
-    overflow-y:scroll;
-    height:300vh;
-  }
+
 
   section{
     display:flex;
@@ -143,12 +161,19 @@ header{
   }
 
   .left{
-    width:40%;
-    margin-left: 200px;
+    width:50%;
+    margin-left: auto;
+    padding: 0 5%;
   }
-  
+  .left-text{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    flex-direction: column;
+    margin-left: auto;
+  }
 .right{
-  width: 80%;
+  width: 50%;
   height: 20%;
 }
 
@@ -158,24 +183,8 @@ header{
   justify-content: space-evenly;
   background-color: rgb(245, 182, 11);
   text-align: center;
-  height: 220px;
 }
 
-.year p{
-  margin-bottom: -20px;
-}
-
-.project p{
-  margin-bottom: -20px;
-}
-
-.contract p{
-  margin-bottom: -20px;
-}
-
-.award p{
-  margin-bottom: -20px;
-}
 
 .projects{
   margin-top: 100px;
@@ -266,13 +275,19 @@ header{
 
 .contact{
   margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
 .contact h1{
   text-align: center;
   font-size: 60px;
 }
-
+.box{
+  color: #337ab7;
+  font-size: 50px;
+}
 .contact img{
   margin-left: 210px;
 }
@@ -299,7 +314,7 @@ footer{
 }
 
 
-input{
+.contact-us input{
   width: 400px;
 }
 
@@ -323,49 +338,73 @@ form button:hover{
 
 
 
-/* 
-@media (max-width: 767px) {
- 
-  body {
-    font-size: 16px;
+
+
+@media (max-width: 1024px) {
+
+  .burger{
+    display: block;
   }
-   */
-/* 
-  .container {
+  .nav ul{
+    display: none;
+  }
+  .nav ul{
+    display: none;
+  }
+  .logo{
     width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
+    justify-content: space-between;
   }
-}
-
-
-@media (min-width: 768px) and (max-width: 1023px) {
- 
-  body {
-    font-size: 18px;
+  .box{
+    font-size: 32px;
   }
+
   
-
-  .container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    box-sizing: border-box;
-  }
-} */
-
-/* 
-@media (min-width: 1024px) {
-
-  body {
+}
+@media (max-width: 768px){
+  .box{
     font-size: 20px;
   }
-  
-
-  .container {
-    width: 60%;
-    margin: 0 auto;
-    padding: 30px;
-    box-sizing: border-box;
+  footer{
+    flex-direction: column;
+    align-items: center;
   }
-} */
+  iframe{
+    width: 300px;
+    height: 200px;
+  }
+  .insquiries {
+    display: none;
+  }
+  .contact-us input{
+    width: 250px;
+  }
+  .inquiries{
+    width: 300px;
+  }
+  .right-side{
+    width: 300px;
+  }
+  .left-side{
+    width: 300px;
+  }
+  .intro p {
+    font-size: 30px;
+  }
+  section{
+    flex-direction: column;
+  }
+  .left{
+    width: 100%;
+  }
+  .left-text{
+    width: 100%
+  }
+  .right{
+    width: 100%;
+  }
+  .projects img{
+    height: 300px;
+    object-fit: cover;
+  }
+}
