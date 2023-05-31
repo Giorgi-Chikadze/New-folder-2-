@@ -65,7 +65,13 @@ header{
     max-width: 200px;
 }
 
+.fa-youtube{
+  color: #E4405F;
+}
+.fa-instagram{
+  color: #E4405F;
 
+}
 
 .logo{
     background-color: rgb(241, 182, 18);
@@ -271,7 +277,9 @@ header{
   color: #1DA1F2;
 }
  
-
+.burger:hover{
+  cursor: pointer;
+}
 
 .contact{
   margin-top: 100px;
@@ -339,16 +347,12 @@ form button:hover{
 
 
 
-
 @media (max-width: 1024px) {
 
   .burger{
     display: block;
   }
-  .nav ul{
-    display: none;
-  }
-  .nav ul{
+  #navigation{
     display: none;
   }
   .logo{
@@ -358,9 +362,29 @@ form button:hover{
   .box{
     font-size: 32px;
   }
-
+  nav{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar{
+    width: 100%;
+  }
+  .navbar ul{
+    flex-direction: column;
+    width: 100%;
+  }
+  .navbar li{
+    text-align: center;
+  }
+  .navbar li a{
+    padding: .5rem 1rem;
+  }
+  .navbar.active{
+    display: flex;
+  }
   
 }
+
 @media (max-width: 768px){
   .box{
     font-size: 20px;
@@ -407,4 +431,5 @@ form button:hover{
     height: 300px;
     object-fit: cover;
   }
+
 }
