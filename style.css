@@ -292,6 +292,62 @@ section {
   width: 500px;
 }
 
+.whole-project{
+  padding-top: 65px;
+}
+
+.project1{
+  width: 100%;
+  height: 200px;
+  background-color: rgb(241, 237, 237);
+}
+
+.project1 h1 {
+  padding: 70px;
+  padding-left: 235px;
+  font-size: 55px;
+}
+
+.project-text
+{
+  width: 400px;
+  padding-left: 50px;
+  padding-top: 70px;
+  word-spacing: 4px;
+}
+
+.project-text p{
+  font-size: 17px;
+  font-family: helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+
+.project-text button{
+  width: 149px;
+  height: 40px;
+  background-color: rgb(46, 45, 45);
+  color: rgb(240, 168, 14);
+  border-width: 1px;
+  margin-top: 70px;
+  
+  
+  
+}
+
+.project-text button:hover{
+  background-color: rgb(240, 162, 17);
+  color: rgb(44, 44, 44);
+  transition: 0.7s;
+}
+
+.about-project{
+  display: flex;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  gap: 100px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 footer {
   display: flex;
   justify-content: space-evenly;
