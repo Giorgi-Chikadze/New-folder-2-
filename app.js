@@ -1,12 +1,15 @@
-console.log("dagi")
+console.log("dagi");
 
 let burger = document.getElementById("burger");
 let nav = document.getElementById("navigation");
 
 burger.addEventListener("click", function () {
-    if (nav.style.display === "none") {
-        nav.style.display === "block"
-    } else {
-        nav.style.display === "none"
-    }
-})
+  console.log(nav);
+  if (nav.style.display === "block") {
+    nav.style.display = "none";
+    nav.style.fontSize = "40px";
+  } else {
+    nav.style.display = "block";
+    nav.style.fontSize = "20px";
+  }
+});
