@@ -17,6 +17,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  gap: 0px;
 }
 
 ul {
@@ -54,6 +55,8 @@ header {
   background-color: rgb(2, 1, 17);
   z-index: 100;
   width: 100%;
+  
+  
 }
 
 .para {
@@ -74,11 +77,14 @@ header {
   display: flex;
   align-items: center;
   gap: 20px;
+  
+  
 }
 .logo-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: flec;
   align-items: center;
+  
 }
 .company {
   /* display:flex; */
@@ -329,15 +335,23 @@ section {
   border-width: 1px;
   margin-top: 70px;
   
+}
+
+.project-text a {
+  text-decoration: none;
+  color: yellow;
   
-  
+}
+
+/* .project-text a:hover{
+  color: rgb(46, 45, 45)
 }
 
 .project-text button:hover{
   background-color: rgb(240, 162, 17);
   color: rgb(44, 44, 44);
   transition: 0.7s;
-}
+} */
 
 .about-project{
   display: flex;
@@ -384,6 +398,7 @@ form button:hover {
   .logo {
     width: 100%;
     justify-content: space-between;
+   
   }
   .box {
     font-size: 32px;
@@ -394,6 +409,7 @@ form button:hover {
   }
   .navbar {
     width: 100%;
+    
   }
   .navbar ul {
     flex-direction: column;
