@@ -52,11 +52,9 @@ li {
 header {
   position: fixed;
   top: 0;
-  background-color: rgb(2, 1, 17);
+  background-color: #1e2d3b;
   z-index: 100;
   width: 100%;
-  
-  
 }
 
 .para {
@@ -77,14 +75,11 @@ header {
   display: flex;
   align-items: center;
   gap: 20px;
-  
-  
 }
 .logo-wrapper {
   display: flex;
   justify-content: flec;
   align-items: center;
-  
 }
 .company {
   /* display:flex; */
@@ -131,6 +126,8 @@ header {
   text-align: center;
   margin-top: 30px;
   font-size: 60px;
+  letter-spacing: 4px;
+  color: #1e2d3b;
 }
 
 .services {
@@ -139,13 +136,38 @@ header {
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 60px;
-  padding: 0 10%;
+  /* padding: 0 10%; */
   gap: 80px;
+}
+
+.cards {
+  width: 20%;
+  background-color: #f7f7f7;
+  height: 400px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  line-height: 30px;
+  color: #3d5975;
+  font-family: "Geologica", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+.des {
+  text-align: center;
+  line-height: 25px;
+  font-family: "Geologica", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 .bg2 {
   background-image: url(https://www.agcs.allianz.com/content/onemarketing/agcs/agcs/en_GB/news-and-insights/reports/global-industry-solution-outlook-2023-construction.thumb.1280.1280.png?ck=1682418269);
-  height: 70vh;
+  height: 90vh;
   background-size: cover;
   width: 100%;
   background-attachment: fixed;
@@ -155,6 +177,7 @@ section {
   display: flex;
   margin-top: 100px;
   gap: 100px;
+  background-color: #f7f7f7;
 }
 
 .left {
@@ -165,17 +188,32 @@ section {
 .left-text {
   display: flex;
   justify-content: flex-end;
-  width: 80%;
+  width: 90%;
   flex-direction: column;
   margin-left: auto;
 }
+.left-text h1 {
+  font-size: 60px;
+  color: #1e2d3b;
+  letter-spacing: 0.05em;
+  padding-bottom: 40px;
+}
+
+.left-text p {
+  letter-spacing: 1px;
+  font-size: 17px;
+  font-family: "Geologica", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
 .right {
   width: 50%;
   height: 20%;
 }
 
 .counter {
-  margin-top: 100px;
+  /* margin-top: 100px; */
   display: flex;
   justify-content: space-evenly;
   background-color: rgb(245, 182, 11);
@@ -298,11 +336,11 @@ section {
   width: 500px;
 }
 
-.whole-project{
+.whole-project {
   padding-top: 65px;
 }
 
-.project1{
+.project1 {
   width: 100%;
   height: 200px;
   background-color: rgb(241, 237, 237);
@@ -314,33 +352,33 @@ section {
   font-size: 55px;
 }
 
-.project-text
-{
+.project-text {
   width: 400px;
   padding-left: 50px;
   padding-top: 70px;
   word-spacing: 4px;
 }
 
-.project-text p{
+.project-text p {
+  letter-spacing: 1px;
   font-size: 17px;
-  font-family: helvetica-w01-light,helvetica-w02-light,sans-serif;
+  font-family: "Geologica", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
-.project-text button{
+.project-text button {
   width: 149px;
   height: 40px;
   background-color: rgb(46, 45, 45);
   color: rgb(240, 168, 14);
   border-width: 1px;
   margin-top: 70px;
-  
 }
 
 .project-text a {
   text-decoration: none;
   color: yellow;
-  
 }
 
 /* .project-text a:hover{
@@ -353,7 +391,7 @@ section {
   transition: 0.7s;
 } */
 
-.about-project{
+.about-project {
   display: flex;
   padding-top: 70px;
   padding-bottom: 70px;
@@ -362,11 +400,18 @@ section {
   flex-wrap: wrap;
 }
 
+.back-video {
+  width: 100%;
+  right: 0;
+  bottom: 0;
+}
+
 footer {
   display: flex;
   justify-content: space-evenly;
   background-color: rgba(248, 248, 248, 0.993);
   gap: 100px;
+  padding-bottom: 80px;
 }
 
 .contact-us input {
@@ -398,7 +443,6 @@ form button:hover {
   .logo {
     width: 100%;
     justify-content: space-between;
-   
   }
   .box {
     font-size: 32px;
@@ -409,7 +453,6 @@ form button:hover {
   }
   .navbar {
     width: 100%;
-    
   }
   .navbar ul {
     flex-direction: column;
