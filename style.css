@@ -69,7 +69,7 @@ header {
 }
 
 .logo {
-  background-color: rgb(241, 182, 18);
+  background-color:#eccd20;
   justify-content: center;
   font-size: 20px;
   display: flex;
@@ -216,8 +216,12 @@ section {
   /* margin-top: 100px; */
   display: flex;
   justify-content: space-evenly;
-  background-color: rgb(245, 182, 11);
+  background-color: #eccd20;
   text-align: center;
+}
+
+.counter p{
+  color: #3d5975;
 }
 
 .projects {
@@ -227,6 +231,7 @@ section {
 .projects H1 {
   text-align: center;
   font-size: 60px;
+  color: #1e2d3b;
 }
 
 .upper2 {
@@ -268,6 +273,7 @@ section {
 .clients h1 {
   text-align: center;
   font-size: 60px;
+  color: #1e2d3b;
 }
 
 .clients {
@@ -315,6 +321,7 @@ section {
 .contact h1 {
   text-align: center;
   font-size: 60px;
+  color: #1e2d3b;
 }
 .box {
   color: #337ab7;
@@ -350,6 +357,10 @@ section {
   padding: 70px;
   padding-left: 235px;
   font-size: 55px;
+  font-family: "Geologica", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  color: #1e2d3b;
 }
 
 .project-text {
