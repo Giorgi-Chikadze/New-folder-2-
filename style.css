@@ -78,13 +78,13 @@ header {
 }
 .logo-wrapper {
   display: flex;
-  justify-content: flec;
+  justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 .company {
   /* display:flex; */
   gap: 5px;
-  margin-top: 20px;
   align-items: center;
 }
 .company-logo {
