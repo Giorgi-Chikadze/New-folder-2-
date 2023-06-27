@@ -132,6 +132,7 @@ header {
   font-size: 60px;
   letter-spacing: 4px;
   color: #1e2d3b;
+  position: relative;
 }
 
 .services {
@@ -142,6 +143,20 @@ header {
   margin-top: 60px;
   /* padding: 0 10%; */
   gap: 80px;
+}
+
+
+
+.center::after{
+  content: "";
+  position: absolute;
+  background-color:#edcd1f;
+  height: 10px;
+  width: 100px;
+  left: 0;
+  top: 70px;
+  
+  
 }
 
 .cards {
@@ -219,14 +234,31 @@ section {
 .counter {
   /* margin-top: 100px; */
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 150px;
   background-color: #eccd20;
   text-align: center;
+  padding:35px;
 }
 
 .counter p{
   color: #3d5975;
+  font-size: 20px;
+  font-family: 'Geologica', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  line-height: 0.5;
+  
 }
+
+.box h3{
+  color: #3d5975;
+  font-size: 65px;
+  margin-bottom: 25px;
+}
+
 
 .projects {
   margin-top: 100px;
