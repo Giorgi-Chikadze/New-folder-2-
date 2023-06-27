@@ -147,7 +147,7 @@ header {
 .cards {
   width: 300px;
   background-color: #f7f7f7;
-  height: 400px;
+  height: 450px;
 }
 
 .image img {
@@ -383,18 +383,32 @@ section {
 }
 
 .project-text button {
-  width: 149px;
+  /* width: 149px;
   height: 40px;
   background-color: rgb(46, 45, 45);
   color: rgb(240, 168, 14);
   border-width: 1px;
-  margin-top: 70px;
+  margin-top: 70px; */
+  width: 149px;
+  height: 40px;
+  background-color: rgb(46, 45, 45);
+  border-width: 1px;
+  margin-top: 20px;
+  border: 0;
+
 }
 
 .project-text a {
   text-decoration: none;
-  color: yellow;
+  color: #edcd1f;
+  font-family: 'Geologica', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  font-weight:  600;
+  font-size: 15px;
 }
+
 
 /* .project-text a:hover{
   color: rgb(46, 45, 45)
@@ -429,21 +443,28 @@ footer {
   padding-bottom: 80px;
 }
 
-.contact-us input {
+.contact-us input, textarea{
   width: 400px;
 }
+
 
 form button {
   width: 149px;
   height: 40px;
   background-color: rgb(46, 45, 45);
-  color: rgb(240, 168, 14);
+  color: #edcd1f;
   border-width: 1px;
   margin-top: 20px;
+  border: 0;
+  font-family: 'Geologica', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  font-weight:  600;
 }
 
 form button:hover {
-  background-color: rgb(240, 162, 17);
+  background-color: #edcd1f;
   color: rgb(44, 44, 44);
   transition: 0.7s;
 }

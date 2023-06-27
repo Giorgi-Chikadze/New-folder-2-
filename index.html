@@ -42,6 +42,10 @@
       href="https://fonts.googleapis.com/css2?family=Geologica:wght@500&family=Rubik&family=Work+Sans&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@500&family=Poppins:wght@600&family=Rubik&family=Work+Sans&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -313,22 +317,22 @@
 
         <div class="contact-us">
           <h1>Contact Us</h1>
-          <form>
+          <form action="https://formspree.io/f/mbjvrynp" method="POST">
             <label>First Name</label>
             <br />
-            <input type="text" />
+            <input type="text"  name="First Name" />
             <br />
             <label>Last Name</label>
             <br />
-            <input type="text" />
+            <input type="text" name="Last Name" />
             <br />
             <label>E-Mail</label>
             <br />
-            <input type="email" />
+            <input type="email" name="Email"/>
             <br />
             <label>Message</label>
             <br />
-            <input type="text" />
+            <textarea name="Message" rows="4"></textarea>
             <br />
             <button type="submit">Submit</button>
           </form>
@@ -365,5 +369,6 @@
       </div>
     </footer>
     <script src="./app.js"></script>
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
   </body>
 </html>
