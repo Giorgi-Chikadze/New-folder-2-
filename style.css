@@ -128,11 +128,13 @@ header {
 
 .center {
   text-align: center;
-  margin-top: 30px;
   font-size: 60px;
   letter-spacing: 4px;
   color: #1e2d3b;
+  width: 300px;
+  margin: 0 auto;
   position: relative;
+
 }
 
 .services {
@@ -152,11 +154,11 @@ header {
   position: absolute;
   background-color:#edcd1f;
   height: 10px;
-  width: 100px;
-  left: 0;
-  top: 70px;
-  
-  
+  width: 200px;
+  top: 80px;
+  right: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .cards {
@@ -216,6 +218,20 @@ section {
   color: #1e2d3b;
   letter-spacing: 0.05em;
   padding-bottom: 40px;
+  position: relative;
+  width: 300px;
+}
+
+.left-text h1::after{
+  content: "";
+  position: absolute;
+  background-color:#edcd1f;
+  height: 10px;
+  width: 130px;
+  top: 80px;
+  right: 40;
+  display: flex;
+  justify-content: center;
 }
 
 .left-text p {
@@ -239,6 +255,7 @@ section {
   background-color: #eccd20;
   text-align: center;
   padding:35px;
+  flex-wrap: wrap;
 }
 
 .counter p{
@@ -264,10 +281,26 @@ section {
   margin-top: 100px;
 }
 
-.projects H1 {
+.projects h1 {
   text-align: center;
   font-size: 60px;
   color: #1e2d3b;
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.projects h1::after{
+  content: "";
+  position: absolute;
+  background-color:#edcd1f;
+  height: 10px;
+  width: 200px;
+  top: 80px;
+  right: 50px;
+  display: flex;
+  justify-content: center;
+  
 }
 
 .upper2 {
@@ -275,6 +308,7 @@ section {
   justify-content: center;
   gap: 30px;
   overflow: hidden;
+  margin-top: 60px;
 }
 
 .upper2 img {
@@ -310,6 +344,21 @@ section {
   text-align: center;
   font-size: 60px;
   color: #1e2d3b;
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.clients h1::after{
+  content: "";
+  position: absolute;
+  background-color:#edcd1f;
+  height: 10px;
+  width: 200px;
+  top: 80px;
+  right: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .clients {
@@ -358,14 +407,33 @@ section {
   text-align: center;
   font-size: 60px;
   color: #1e2d3b;
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
 }
+
+.contact h1::after{
+  content: "";
+  position: absolute;
+  background-color:#edcd1f;
+  height: 10px;
+  width: 200px;
+  top: 80px;
+  right: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+iframe{
+  margin-top: 40px;
+}
+
 .box {
   color: #337ab7;
   font-size: 50px;
 }
-.contact img {
-  margin-left: 210px;
-}
+
+
 
 .left-side {
   margin-top: 100px;
@@ -475,8 +543,12 @@ footer {
   padding-bottom: 80px;
 }
 
-.contact-us input, textarea{
+.contact-us input{
   width: 400px;
+}
+
+.contact-us textarea{
+  width: 300px;
 }
 
 
@@ -535,6 +607,10 @@ form button:hover {
   .navbar.active {
     display: flex;
   }
+  .counter{
+    gap: 50px;
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -582,5 +658,20 @@ form button:hover {
   .projects img {
     height: 300px;
     object-fit: cover;
+  }
+}
+
+@media(max-width: 580px){
+  .counter{
+    gap:50px;
+    font-size: 22px;
+  }
+
+  .home{
+    margin-top: 132px;
+  }
+
+  .intro p{
+    font-size: 18px ;
   }
 }
